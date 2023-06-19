@@ -1,0 +1,283 @@
+@media (max-width: 1439px)
+    .sidepanel
+        display: none
+
+
+@media (max-width: 1200px)
+    .container
+        max-width: 960px !important
+    .sidepanel
+        display: none
+    .person
+        padding-top: 70px
+        &__grid
+            grid-template-columns: 400px 535px
+            gap: 40px
+        &__skills
+            grid-template-columns: repeat(2, 235px)
+            column-gap: 40px
+        &__descr
+            margin-bottom: 60px
+            margin-top: 40px
+    .resume
+        padding: 30px 0
+        &__wrapper
+            column-gap: 80px
+            padding: 50px 45px 0 45px
+    .skills
+        margin-bottom: 30px
+        &__rating
+            grid-template-columns: repeat(2, 350px)
+            justify-content: center
+        &__box
+            grid-template-columns: repeat(3, 270px)
+            justify-content: center
+            margin-top: 30px
+            margin-bottom: 60px
+    .portfolio
+        &__wrapper
+            margin: 30px auto 0 auto
+            grid-template-columns: repeat(auto-fit, 280px)
+            grid-auto-rows: 280px
+            justify-content: center
+            .horisontal, .vertical
+                grid-row: unset
+                grid-column: unset
+    .contacts
+        &__wrapper
+            padding: 0
+            grid-template-columns: 377px 585px
+        &__img
+            max-height: 533px
+        &__policy
+            input
+                width: 10px !important
+
+
+
+
+@media (max-width: 992px)
+    .container
+        max-width: 720px !important
+        margin: 0 auto !important
+    .sidepanel
+        display: none
+    .person
+        padding-top: 50px
+        &__grid
+            grid-template-columns: 300px 380px
+            gap: 40px
+        &__skills
+            grid-template-columns: 360px
+            column-gap: 15px
+            row-gap: 10px
+        &__descr
+            margin-top: 0
+            margin-bottom: 20px
+    .title_fz36
+        font-size: 32px
+    .resume
+        padding: 30px 0
+        &__column ul li::after
+            display: none
+        &__column-title::before
+            display: none
+        &__item::before
+            display: none
+        &__wrapper
+            grid-template-columns: 520px
+            justify-content: center
+            padding: 10px 45px 0 45px
+            column-gap: 0
+        &__body
+            margin-bottom: 20px
+    .skills
+        &__box
+            grid-template-columns: repeat(3, 245px)
+    .price
+        padding-bottom: 60px
+        &__wrapper
+            grid-template-columns: repeat(2, 328px)
+            padding: 0
+            margin-top: 30px
+            justify-content: space-between
+    .contacts
+        &__photo
+            display: none
+        &__wrapper
+            grid-template-columns: 586px
+            justify-content: center
+
+
+
+
+
+@media (max-width: 768px)
+    .container
+        max-width: 540px !important
+    .sidepanel
+        display: none
+    .promo__title
+        font-size: 28px
+        line-height: 45px
+    .promo__link
+        padding: 5px
+    .promo__btns
+        width: 200px
+        margin-top: 20px
+    .menu__social
+        left: 30%
+        bottom: 160px
+    .promo__h1
+        width: 290px
+    .person__grid
+        display: block
+    .person__skills
+        grid-template-columns: repeat(2, 240px)
+        column-gap: 30px
+        row-gap: 20px
+        justify-content: center
+    .resume
+        &__column ul li::after
+            display: none
+        &__column-title::before
+            display: none
+        &__item::before
+            display: none
+    .skills
+        &__box
+            grid-template-columns: repeat(2, 250px)
+            margin-bottom: 30px
+        &__rating
+            grid-template-columns: 350px
+            gap: 30px
+    .price
+        &__wrapper
+             grid-template-columns: 351px
+             justify-content: center
+    .contacts
+        &__photo
+            display: none
+        &__wrapper
+            position: relative
+            grid-template-columns: 465px
+            justify-content: center
+        &__input
+            input
+                width: 180px
+        &__textarea
+            textarea
+                width: 450px
+        form
+            grid-template: 36px 135px 45px/repeat(2, 240px)
+        &__title
+            text-align: center
+        &__title::before
+            left: 183px
+        &__subtitle
+            text-align: center
+        &__divider
+            margin: 0 auto
+        &__descr
+            text-align: center
+        &__social
+            margin: 15px auto
+    
+
+
+
+
+
+@media (max-width: 576px)
+    .container
+        width: 100% !important
+    .sidepanel
+        display: none
+    .title
+        &_fz48
+            font-size: 26px
+    .promo__link
+        padding: 14px
+    .promo__btns
+        width: 250px
+    .promo
+        padding-left: 10px
+        padding-right: 10px 
+        background: url(../img/main_bg.jpg) no-repeat 59%/cover
+    .menu__block
+        width: 250px
+    .menu__close
+        right: 50px
+    .person__skills
+        grid-template-columns: 330px
+        column-gap: 30px
+        row-gap: 20px
+        justify-content: center
+        margin-top: 40px
+    .resume__column ul li::after
+        display: none
+    .resume__column-title::before
+        display: none
+    .resume__item::before
+        display: none
+    
+
+
+
+
+@media( max-width: 535px )
+    .person
+        padding-top: 30px
+    .resume
+        &__wrapper
+            grid-template-columns: 400px
+    .skills
+        &__box
+            grid-template-columns: 250px
+            margin-bottom: 30px
+        &__rating
+            grid-template-columns: 300px
+            gap: 30px
+        &__rating-line
+            width: 300px
+    .contacts
+        &__wrapper
+            grid-template-columns: 357px 
+        input
+            width: 120px
+        textarea
+            width: 338px
+            height: 100px
+        form
+            grid-template: 36px 68px 45px/repeat(2, 170px)
+            margin: 15px auto
+        &__social
+            margin: 10px auto
+        &__title::before
+            left: 135px
+        &__triggers
+            display: flex
+            align-items: center
+            flex-direction: column
+            margin-top: 30px
+        &__policy
+            margin-top: 20px
+            
+            
+
+
+
+
+@media ( max-width: 424px )
+    .person
+        &__info
+            margin-left: 20px
+        &__skills
+            grid-template-columns: 300px
+    .resume
+        &__wrapper
+            grid-template-columns: 300px
+    .price
+        &__wrapper
+             grid-template-columns: 310px
+             justify-content: center

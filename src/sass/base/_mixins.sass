@@ -1,0 +1,38 @@
+@mixin before-circle
+    &::before
+        content: ''
+        height: 36px
+        width: 36px
+        background-color: $main-color
+        z-index: -1
+        position: absolute
+        border-radius: 100%
+        top: -6px
+        left: -12px
+@mixin before-circle-menu
+    &::before
+        content: ''
+        height: 15px
+        width: 15px
+        z-index: 1
+        position: absolute
+        left: 0
+        top: 7px
+        border-radius: 100%
+        border: 1px #000 solid
+    &:hover
+        &::before
+            background-color: #fff
+            transition: all 0.6s
+@mixin before-circle-icon
+    &::before
+        content: ''
+        height: 36px
+        width: 36px
+        background-color: $main-color
+        z-index: -1
+        position: absolute
+        border-radius: 100%
+        top: -16px
+        left: -17px
+    

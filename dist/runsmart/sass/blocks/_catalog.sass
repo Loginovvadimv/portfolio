@@ -1,0 +1,132 @@
+.catalog
+    h2
+        text-align: center
+        font-weight: 400
+        font-size: 30px
+        color: #0D0D0D
+        margin-bottom: 45px
+        text-transform: uppercase
+    &__tabs
+        list-style: none
+        display: flex
+        justify-content: center
+        margin-bottom: 57px
+        padding-left: 0
+        
+    &__tab
+        text-transform: uppercase
+        width: 220px
+        height: 50px
+        font-weight: 400
+        font-size: 18px
+        color: #6B6B6B
+        text-align: center
+        line-height: 48px
+        transform: skewX(-25deg)
+        border: 1px solid #6B6B6B
+        margin: 0 5px
+        cursor: pointer
+        transition: 0.5s all
+        &:hover
+            box-shadow: 3px 3px 20px $main-color
+            border: none
+        div
+            transform: skewX(25deg)
+        &_active
+            color: #fff
+            background-color: $main-color
+            border: none
+    &-item
+        border: 2px solid #E8E8E8
+        width: 260px
+        padding: 20px 20px 26px 20px
+        min-height: 420px
+        margin-bottom: 20px
+        &__img
+            max-width: 100%
+            max-height: 200px
+            margin: 0 auto
+            display: block
+            margin-bottom: 15px
+        &__subtitle
+            text-align: center
+            margin-bottom: 15px
+            font-weight: 700
+            font-size: 16px
+        &__descr
+            font-weight: 300
+            font-size: 14px
+            line-height: 22px
+            text-align: center
+            margin-bottom: 17px
+        &__link
+            font-weight: 500
+            font-size: 14px
+            color: $main-color
+            display: block
+            text-align: center
+            text-decoration: underline
+            margin-bottom: 17px
+            &:hover
+                color: $main-color
+        hr
+            margin-bottom: 30px
+            border-bottom: none
+        &__footer
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &__old-price
+            font-weight: 300
+            font-size: 14px
+            color: #555555
+            margin-bottom: 5px
+            text-decoration: line-through
+        &__price
+            font-weight: 700
+            font-size: 20px
+        &__list
+            display: none
+            &_active
+                display: block
+            ul
+                margin-bottom: 38px
+            li
+                color: $main-color
+                font-weight: 300
+                font-size: 14px
+                line-height: 21px
+                margin-bottom: 8px
+                span
+                    color: #555555
+        &__back
+            margin-bottom: 17px
+            font-weight: 500
+            font-size: 14px
+            text-transform: uppercase
+            color: $main-color
+            display: block
+            text-align: center
+        &__content
+            display: none
+            &_active
+                display: block
+    &__content
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

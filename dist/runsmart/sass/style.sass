@@ -1,0 +1,31 @@
+@import 'base/variables'
+@import 'base/mixins'
+@import 'base/_animations'
+
+
+@import 'blocks/promo'
+@import 'blocks/header'
+@import 'blocks/buttons'
+@import 'blocks/main'
+@import 'base/media'
+@import 'blocks/consultation'
+@import 'blocks/forms'
+@import 'blocks/_carousel'
+@import 'blocks/_catalog'
+@import 'blocks/_reviews'
+@import 'blocks/_map'
+@import 'blocks/_footer'
+@import 'blocks/_forms_modal'
+@import 'blocks/_pageup'
+
+*
+    font-family: 'MuseoSans', sans-serif
+body
+    margin: 0
+.container
+   max-width: 950px
+   margin: 0 auto
+.tabs__content 
+    display: none /* по умолчанию прячем все блоки */
+.tabs__content.active 
+    display: block /* по умолчанию показываем нужный блок */

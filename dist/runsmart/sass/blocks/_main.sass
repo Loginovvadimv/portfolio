@@ -1,0 +1,43 @@
+.main
+    background-color: #F6F6F6
+    padding: 70px 0 70px 0
+    &__header
+        font-weight: 700
+        font-size: 30px
+        color: #0D0D0D
+        text-align: center
+        margin-bottom: 60px
+    &__icons
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+        width: 900px
+        margin-bottom: 35px
+    &__icon
+        display: flex
+        flex-direction: column
+        text-align: center
+        font-weight: 700
+        font-size: 18px
+        &_animated
+            img
+                animation-name: heartbeat
+                animation-duration: 1s
+                animation-timing-function: ease
+                animation-iteration-count: infinite
+                &:hover
+                    animation-play-state: paused
+        span
+            font-weight: 300
+            font-size: 14px
+        img
+            width: 70px
+            height: 70px
+            display: block
+            margin: 0 auto
+            margin-bottom: 35px
+        a
+            color: $main-color
+            font-family: MuseoSansCyrl
+            
+
